@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{  
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    max-width: 300px;
+    margin: 10px 0px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #3498db;
+    width: 100%;
+    height: 56px;
+    border-top: 2px solid white;
+    border-bottom: 1px solid white;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #3498db;
+    width: 100%;
+    list-style-type: none;
+}
+
+header nav ul li{
+    padding: 15px;
+    border-right: 2px solid white;
+    transition: 0.25s;
+}
+
+header nav ul li:hover{
+    transition: 0.25s;
+    background-color: orange;
+}
+
+header nav ul li a{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+}
+
+.icon-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-contact img{
+    width: 30px;
+}

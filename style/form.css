@@ -1,0 +1,18 @@
+.form-main-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.75;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3498db;
+    padding: 50px;
+    width: 21.5%;
+}
+
+.form-input{
+    width: 100%;
+    margin: 25px 0px;
+    font-size: 32px;
+    padding: 15px 10px;
+    border: none;
+}
